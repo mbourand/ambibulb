@@ -1,0 +1,14 @@
+{
+  "id": {{REQUEST_ID}},
+  "type": "call_service",
+  "domain": "light",
+  "service": "turn_on",
+  "target": {
+    "device_id": "device_id_here"
+  },
+  "service_data": {
+    "brightness_pct": {{BRIGHTNESS}},
+    "rgb_color": [{{RED}}, {{GREEN}}, {{BLUE}}],
+    "transition": {{TRANSITION_SECONDS}}
+  }
+}
