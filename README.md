@@ -1,10 +1,10 @@
 # Ambibulb
 
-_A local, open source ambilight algorithm using Home Assistant Websocket API_
+_A local, open source, room level ambilight algorithm using Home Assistant Websocket API_
 
 ## Installation
 
-Tested with Home Assistant & Zigbee2MQTT & Phillips Hue Lightbulb
+Tested with Home Assistant & Zigbee2MQTT & Phillips Hue Lightbulb, but you can make it work with any device that works with home assistant
 
 1. Install Python 3.11
 2. Clone this repo `git clone git@github.com:mbourand/ambibulb.git` or download it
